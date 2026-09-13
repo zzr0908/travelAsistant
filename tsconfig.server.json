@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "noEmit": false, "outDir": "dist/server", "rootDir": "src", "module": "NodeNext", "moduleResolution": "NodeNext", "types": ["node"] },
+  "include": ["src/service/server", "src/service/domain", "src/storage", "src/shared", "src/agent"]
+}

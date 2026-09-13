@@ -1,0 +1,16 @@
+{
+  "zoom": 16,
+  "bounds": [
+    11.247,
+    43.765,
+    11.266,
+    43.773
+  ],
+  "attribution": "© Geoapify · © OpenMapTiles · © OpenStreetMap contributors",
+  "capturedAt": "2026-09-09T01:39:48.090Z",
+  "usage": {
+    "credits": 3,
+    "requests": 12,
+    "dailyBudget": 5
+  }
+}

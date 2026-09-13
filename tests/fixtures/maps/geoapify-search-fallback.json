@@ -1,0 +1,1063 @@
+{
+  "acquiredAt": "2026-09-08T09:31:47.401Z",
+  "source": "Actual Geoapify response, API key excluded",
+  "geocode": {
+    "D2-10": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Boboli Gardens",
+            "other_names": {
+              "name": "Giardino di Boboli",
+              "name:cs": "Zahrady Boboli",
+              "name:de": "Boboli-Garten",
+              "name:es": "Jardín de Bóboli",
+              "name:eu": "Boboli lorategia",
+              "name:fr": "Jardin de Boboli",
+              "name:he": "גני בובולי",
+              "name:hu": "Boboli-kert",
+              "name:it": "Giardino di Boboli",
+              "name:ka": "ბობოლის ბაღები",
+              "name:ko": "보볼리 정원",
+              "name:nl": "Boboli-tuinen",
+              "name:ru": "Сады Боболи",
+              "name:tr": "Boboli Bahçeleri",
+              "name:uk": "Сади Боболі",
+              "name:zh": "波波里花园"
+            },
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Tuscany",
+            "county": "Florence",
+            "city": "Florence",
+            "postcode": "50125",
+            "suburb": "Quartiere 1",
+            "iso3166_2": "IT-52",
+            "iso3166_2_sublevel": "IT-FI",
+            "lon": 11.2498992,
+            "lat": 43.7632781,
+            "state_code": "TOS",
+            "result_type": "amenity",
+            "county_code": "FI",
+            "NUTS_3": "ITI14",
+            "formatted": "Boboli Gardens, 50125 Florence FI, Italy",
+            "address_line1": "Boboli Gardens",
+            "address_line2": "50125 Florence FI, Italy",
+            "category": "leisure.park",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FMHQ67X+8X",
+            "plus_code_short": "Q67X+8X Florence, Italy",
+            "rank": {
+              "importance": 0.46731997584895757,
+              "popularity": 8.46408423129629,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "51d797b6c9f27f26405963a0c618b3e14540f00102f9018549720100000000c0020192030e426f626f6c692047617264656e73"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.2498992,
+              43.7632781
+            ]
+          },
+          "bbox": [
+            11.2422264,
+            43.760401,
+            11.2535532,
+            43.7661907
+          ]
+        }
+      ],
+      "query": {
+        "text": "",
+        "city": "Florence",
+        "country": "Italy",
+        "parsed": {
+          "house": "Giardino di Boboli",
+          "city": "Florence",
+          "country": "Italy",
+          "expected_type": "amenity"
+        }
+      }
+    },
+    "D2-11": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Giardino Bardini",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Tuscany",
+            "county": "Florence",
+            "city": "Florence",
+            "suburb": "Quartiere 1",
+            "iso3166_2": "IT-52",
+            "iso3166_2_sublevel": "IT-FI",
+            "lon": 11.2571283,
+            "lat": 43.7642123,
+            "state_code": "TOS",
+            "result_type": "amenity",
+            "county_code": "FI",
+            "NUTS_3": "ITI14",
+            "formatted": "Giardino Bardini, Quartiere 1, Florence, Italy",
+            "address_line1": "Giardino Bardini",
+            "address_line2": "Quartiere 1, Florence, Italy",
+            "category": "leisure.park",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FMHQ774+MV",
+            "plus_code_short": "Q774+MV Florence, Italy",
+            "rank": {
+              "importance": 0.37462627372624707,
+              "popularity": 8.406286429970036,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "518dc00e52a683264059b8d969b5d1e14540f00102f901e3a68c0600000000c002019203104769617264696e6f2042617264696e69"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.2571283,
+              43.7642123
+            ]
+          },
+          "bbox": [
+            11.255066,
+            43.7629748,
+            11.2588256,
+            43.7654614
+          ]
+        }
+      ],
+      "query": {
+        "text": "",
+        "city": "Florence",
+        "country": "Italy",
+        "parsed": {
+          "house": "Giardino Bardini",
+          "city": "Florence",
+          "country": "Italy",
+          "expected_type": "amenity"
+        }
+      }
+    },
+    "D2-13": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Ponte degli Alpini",
+            "other_names": {
+              "alt_name": "Ponte Vecchio",
+              "name:vec": "Ponte Vecio"
+            },
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Veneto",
+            "county": "Vicenza",
+            "city": "Bassano del Grappa",
+            "hamlet": "Angarano",
+            "postcode": "36061",
+            "suburb": "Angarano",
+            "street": "Via Angarano",
+            "iso3166_2": "IT-34",
+            "iso3166_2_sublevel": "IT-VI",
+            "lon": 11.7311146,
+            "lat": 45.767514,
+            "state_code": "VEN",
+            "result_type": "amenity",
+            "county_code": "VI",
+            "NUTS_3": "ITH32",
+            "formatted": "Ponte degli Alpini, Via Angarano, 36061 Bassano del Grappa VI, Italy",
+            "address_line1": "Ponte degli Alpini",
+            "address_line2": "Via Angarano, 36061 Bassano del Grappa VI, Italy",
+            "category": "tourism.attraction",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FQHQP9J+2C",
+            "plus_code_short": "9J+2C Bassano del Grappa, Vicenza, Italy",
+            "rank": {
+              "importance": 0.35293318613167857,
+              "popularity": 6.883755581129415,
+              "confidence": 0,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "51994121a754762740596f9c14e63de24640f00102f901c0a9b20800000000c00201920312506f6e7465206465676c6920416c70696e69"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.7311146,
+              45.767514
+            ]
+          },
+          "bbox": [
+            11.7306382,
+            45.7674605,
+            11.7315911,
+            45.7675725
+          ]
+        }
+      ],
+      "query": {
+        "text": "",
+        "city": "Bassano del Grappa",
+        "country": "Italy",
+        "parsed": {
+          "house": "Ponte Vecchio",
+          "city": "Bassano del Grappa",
+          "country": "Italy",
+          "expected_type": "amenity"
+        }
+      }
+    },
+    "D2-14": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Resti del Ponte Coperto",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Lombardy",
+            "county": "Pavia",
+            "city": "Pavia",
+            "postcode": "27100",
+            "suburb": "Borgo Ticino",
+            "street": "Viale Lungoticino Visconti",
+            "iso3166_2": "IT-25",
+            "iso3166_2_sublevel": "IT-PV",
+            "lon": 9.1532369,
+            "lat": 45.1814339,
+            "state_code": "LOM",
+            "district": "Pavia",
+            "county_code": "PV",
+            "result_type": "amenity",
+            "NUTS_3": "ITC48",
+            "formatted": "Resti del Ponte Coperto, Viale Lungoticino Visconti, 27100 Pavia PV, Italy",
+            "address_line1": "Resti del Ponte Coperto",
+            "address_line2": "Viale Lungoticino Visconti, 27100 Pavia PV, Italy",
+            "category": "tourism.sights.ruines",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FQF55J3+H7",
+            "plus_code_short": "J3+H7 Pavia, Italy",
+            "rank": {
+              "importance": 0.00007074158846413393,
+              "popularity": 6.985150269714503,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "51b2142411754e2240596071dd3939974640f00102f901566ff80e00000000c0020192031752657374692064656c20506f6e746520436f706572746fe203216f70656e7374726565746d61703a76656e75653a7761792f323531313632343534"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.1532369,
+              45.1814339
+            ]
+          },
+          "bbox": [
+            9.1531698,
+            45.1813849,
+            9.1533044,
+            45.1814776
+          ]
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Ponte Coperto",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Lombardy",
+            "county": "Pavia",
+            "city": "Pavia",
+            "postcode": "27100",
+            "suburb": "Borgo Ticino",
+            "street": "Ponte Coperto",
+            "iso3166_2": "IT-25",
+            "iso3166_2_sublevel": "IT-PV",
+            "lon": 9.1531924,
+            "lat": 45.1806411,
+            "state_code": "LOM",
+            "result_type": "amenity",
+            "county_code": "PV",
+            "NUTS_3": "ITC48",
+            "formatted": "Ponte Coperto, 27100 Pavia PV, Italy",
+            "address_line1": "Ponte Coperto",
+            "address_line2": "27100 Pavia PV, Italy",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FQF55J3+77",
+            "plus_code_short": "J3+77 Pavia, Italy",
+            "rank": {
+              "importance": 0.28008114849440524,
+              "confidence": 0,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "51d3fdf73b6f4e2240592068603f1f974640f00101f90153f4f00000000000c0020192030d506f6e746520436f706572746f"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.1531924,
+              45.1806411
+            ]
+          },
+          "bbox": [
+            9.1527788,
+            45.1798271,
+            9.1535936,
+            45.181448
+          ]
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Ponte di Pietra",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Lombardy",
+            "county": "Pavia",
+            "city": "Pavia",
+            "postcode": "27100",
+            "suburb": "Ponte di Pietra",
+            "street": "Via Gaspare Aselli",
+            "iso3166_2": "IT-25",
+            "iso3166_2_sublevel": "IT-PV",
+            "lon": 9.1441098,
+            "lat": 45.1930656,
+            "state_code": "LOM",
+            "district": "Pavia",
+            "county_code": "PV",
+            "result_type": "amenity",
+            "NUTS_3": "ITC48",
+            "formatted": "Ponte di Pietra, Via Gaspare Aselli, 27100 Pavia PV, Italy",
+            "address_line1": "Ponte di Pietra",
+            "address_line2": "Via Gaspare Aselli, 27100 Pavia PV, Italy",
+            "category": "commercial.health_and_beauty.pharmacy;healthcare.pharmacy",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FQF54VV+6J",
+            "plus_code_short": "54VV+6J Pavia, Italy",
+            "rank": {
+              "importance": 0.00007074158846413393,
+              "popularity": 6.450541162352078,
+              "confidence": 0,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "51f3107cc2c849224059c6fda25fb6984640f00103f90167b74d1b00000000c0020192030f506f6e746520646920506965747261e203226f70656e7374726565746d61703a76656e75653a6e6f64652f343538303738303535"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.1441098,
+              45.1930656
+            ]
+          },
+          "bbox": [
+            9.1440598,
+            45.1930156,
+            9.1441598,
+            45.1931156
+          ]
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Cafe Ponte",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Lombardy",
+            "county": "Pavia",
+            "city": "Pavia",
+            "postcode": "27100",
+            "suburb": "Borgo Ticino",
+            "street": "Piazzale Ponte Ticino",
+            "iso3166_2": "IT-25",
+            "iso3166_2_sublevel": "IT-PV",
+            "lon": 9.1534709,
+            "lat": 45.1819095,
+            "state_code": "LOM",
+            "district": "Pavia",
+            "county_code": "PV",
+            "result_type": "amenity",
+            "NUTS_3": "ITC48",
+            "formatted": "Cafe Ponte, Piazzale Ponte Ticino, 27100 Pavia PV, Italy",
+            "address_line1": "Cafe Ponte",
+            "address_line2": "Piazzale Ponte Ticino, 27100 Pavia PV, Italy",
+            "category": "catering.cafe",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FQF55J3+Q9",
+            "plus_code_short": "J3+Q9 Pavia, Italy",
+            "rank": {
+              "importance": 0.00007074158846413393,
+              "popularity": 6.985150269714503,
+              "confidence": 0,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "517fc6e0bc934e22405976aa7ccf48974640f00103f901c5c1783201000000c0020192030a4361666520506f6e7465e203236f70656e7374726565746d61703a76656e75653a6e6f64652f35313431373432303231"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.1534709,
+              45.1819095
+            ]
+          },
+          "bbox": [
+            9.1534209,
+            45.1818595,
+            9.1535209,
+            45.1819595
+          ]
+        }
+      ],
+      "query": {
+        "text": "",
+        "city": "Pavia",
+        "country": "Italy",
+        "parsed": {
+          "house": "Ponte Vecchio",
+          "city": "Pavia",
+          "country": "Italy",
+          "expected_type": "amenity"
+        }
+      }
+    },
+    "D2-17": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Ditta Artigianale",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Tuscany",
+            "county": "Florence",
+            "city": "Florence",
+            "postcode": "50122",
+            "district": "San Niccolò",
+            "suburb": "Quartiere 1",
+            "street": "Via dei Neri",
+            "housenumber": "30/32 R",
+            "iso3166_2": "IT-52",
+            "iso3166_2_sublevel": "IT-FI",
+            "lon": 11.2585566,
+            "lat": 43.7680952,
+            "state_code": "TOS",
+            "result_type": "amenity",
+            "county_code": "FI",
+            "NUTS_3": "ITI14",
+            "formatted": "Ditta Artigianale, Via dei Neri, 30/32 R, 50122 Florence FI, Italy",
+            "address_line1": "Ditta Artigianale",
+            "address_line2": "Via dei Neri, 30/32 R, 50122 Florence FI, Italy",
+            "category": "catering.cafe",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FMHQ795+6C",
+            "plus_code_short": "95+6C Florence, Italy",
+            "rank": {
+              "importance": 0.00008105668726630072,
+              "popularity": 8.995467104553104,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "517554da876184264059771b8af150e24540f00103f9013b6cc68c00000000c00201920311446974746120417274696769616e616c65"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.2585566,
+              43.7680952
+            ]
+          },
+          "bbox": [
+            11.2585066,
+            43.7680452,
+            11.2586066,
+            43.7681452
+          ]
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Ditta Artigianale",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Tuscany",
+            "county": "Florence",
+            "city": "Florence",
+            "postcode": "50122",
+            "suburb": "Quartiere 1",
+            "street": "Via Giosuè Carducci",
+            "housenumber": "2r",
+            "iso3166_2": "IT-52",
+            "iso3166_2_sublevel": "IT-FI",
+            "lon": 11.2664546,
+            "lat": 43.7716668,
+            "state_code": "TOS",
+            "result_type": "amenity",
+            "county_code": "FI",
+            "NUTS_3": "ITI14",
+            "formatted": "Ditta Artigianale, Via Giosuè Carducci, 2r, 50122 Florence FI, Italy",
+            "address_line1": "Ditta Artigianale",
+            "address_line2": "Via Giosuè Carducci, 2r, 50122 Florence FI, Italy",
+            "category": "catering.bar",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FMHQ7C8+MH",
+            "plus_code_short": "Q7C8+MH Florence, Italy",
+            "rank": {
+              "importance": 0.00008105668726630072,
+              "popularity": 8.856970486280758,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "51cebcc1bc6c8826405959b44afac5e24540f00103f9017c4bdb5802000000c00201920311446974746120417274696769616e616c65"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.2664546,
+              43.7716668
+            ]
+          },
+          "bbox": [
+            11.2664046,
+            43.7716168,
+            11.2665046,
+            43.7717168
+          ]
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Ditta Artigianale",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Tuscany",
+            "county": "Florence",
+            "city": "Florence",
+            "postcode": "50125",
+            "district": "Oltrarno",
+            "suburb": "Quartiere 1",
+            "street": "Via dello Sprone",
+            "housenumber": "5r",
+            "iso3166_2": "IT-52",
+            "iso3166_2_sublevel": "IT-FI",
+            "lon": 11.2509031,
+            "lat": 43.7669147,
+            "state_code": "TOS",
+            "result_type": "amenity",
+            "county_code": "FI",
+            "NUTS_3": "ITI14",
+            "formatted": "Ditta Artigianale, Via dello Sprone, 5r, 50125 Florence FI, Italy",
+            "address_line1": "Ditta Artigianale",
+            "address_line2": "Via dello Sprone, 5r, 50125 Florence FI, Italy",
+            "category": "catering.cafe",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FMHQ782+Q9",
+            "plus_code_short": "82+Q9 Florence, Italy",
+            "rank": {
+              "importance": 0.00008105668726630072,
+              "popularity": 8.922600236671805,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "5117ee015f76802640592ca9c9422ae24540f00103f901318502fe00000000c00201920311446974746120417274696769616e616c65"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.2509031,
+              43.7669147
+            ]
+          },
+          "bbox": [
+            11.2508531,
+            43.7668647,
+            11.2509531,
+            43.7669647
+          ]
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Ditta Artigianale",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Tuscany",
+            "county": "Florence",
+            "city": "Florence",
+            "postcode": "50121",
+            "suburb": "Quartiere 1",
+            "street": "Piazza Francesco Ferrucci",
+            "iso3166_2": "IT-52",
+            "iso3166_2_sublevel": "IT-FI",
+            "lon": 11.2701748,
+            "lat": 43.7639364,
+            "state_code": "TOS",
+            "result_type": "amenity",
+            "county_code": "FI",
+            "NUTS_3": "ITI14",
+            "formatted": "Ditta Artigianale, Piazza Francesco Ferrucci, 50121 Florence FI, Italy",
+            "address_line1": "Ditta Artigianale",
+            "address_line2": "Piazza Francesco Ferrucci, 50121 Florence FI, Italy",
+            "category": "catering.cafe",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FMHQ77C+H3",
+            "plus_code_short": "Q77C+H3 Florence, Italy",
+            "rank": {
+              "importance": 0.00008105668726630072,
+              "popularity": 7.985368503098613,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "511c68f459548a264059ab1cffaac8e14540f00103f90199f290f502000000c00201920311446974746120417274696769616e616c65"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.2701748,
+              43.7639364
+            ]
+          },
+          "bbox": [
+            11.2701248,
+            43.7638864,
+            11.2702248,
+            43.7639864
+          ]
+        }
+      ],
+      "query": {
+        "text": "",
+        "city": "Florence",
+        "country": "Italy",
+        "parsed": {
+          "house": "Ditta Artigianale",
+          "city": "Florence",
+          "country": "Italy",
+          "expected_type": "amenity"
+        }
+      }
+    },
+    "D2-19": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Galleria degli Uffizi",
+            "other_names": {
+              "name:de": "Galerien der Uffizien",
+              "name:fr": "Galerie des Offices",
+              "name:ja": "ウフィツィ美術館",
+              "name:ko": "우피치 미술관",
+              "name:ru": "Галерея Уффици",
+              "name:tr": "Uffizi Galerisi",
+              "name:uk": "Галерея Уффіці",
+              "name:zh": "乌菲齐美术馆"
+            },
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Tuscany",
+            "county": "Florence",
+            "city": "Florence",
+            "postcode": "50122",
+            "district": "Oltrarno",
+            "suburb": "Quartiere 1",
+            "street": "Chiasso del Buco",
+            "iso3166_2": "IT-52",
+            "iso3166_2_sublevel": "IT-FI",
+            "lon": 11.2558009,
+            "lat": 43.7683129,
+            "state_code": "TOS",
+            "result_type": "amenity",
+            "county_code": "FI",
+            "NUTS_3": "ITI14",
+            "formatted": "Galleria degli Uffizi, Chiasso del Buco, 50122 Florence FI, Italy",
+            "address_line1": "Galleria degli Uffizi",
+            "address_line2": "Chiasso del Buco, 50122 Florence FI, Italy",
+            "category": "entertainment.museum",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FMHQ794+88",
+            "plus_code_short": "94+88 Florence, Italy",
+            "rank": {
+              "importance": 0.5953961616172283,
+              "popularity": 9.995467104553104,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "512293e755f882264059264cbd1358e24540f00102f90139b3721c00000000c0020192031547616c6c65726961206465676c6920556666697a69"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.2558009,
+              43.7683129
+            ]
+          },
+          "bbox": [
+            11.2546333,
+            43.7676724,
+            11.2563144,
+            43.7691209
+          ]
+        }
+      ],
+      "query": {
+        "text": "",
+        "city": "Florence",
+        "country": "Italy",
+        "parsed": {
+          "house": "Galleria Degli Uffizi",
+          "city": "Florence",
+          "country": "Italy",
+          "expected_type": "amenity"
+        }
+      }
+    },
+    "D2-20": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright"
+            },
+            "name": "Trattoria ponte vecchio",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Tuscany",
+            "county": "Florence",
+            "city": "Florence",
+            "postcode": "50125",
+            "district": "Oltrarno",
+            "suburb": "Quartiere 1",
+            "street": "Lungarno degli Archibusieri",
+            "iso3166_2": "IT-52",
+            "iso3166_2_sublevel": "IT-FI",
+            "lon": 11.2543423,
+            "lat": 43.7681854,
+            "state_code": "TOS",
+            "result_type": "amenity",
+            "county_code": "FI",
+            "NUTS_3": "ITI14",
+            "formatted": "Trattoria ponte vecchio, Lungarno degli Archibusieri, 50125 Florence FI, Italy",
+            "address_line1": "Trattoria ponte vecchio",
+            "address_line2": "Lungarno degli Archibusieri, 50125 Florence FI, Italy",
+            "category": "catering.restaurant",
+            "timezone": {
+              "name": "Europe/Rome",
+              "offset_STD": "+01:00",
+              "offset_DST": "+02:00",
+              "offset_STD_seconds": 3600,
+              "offset_DST_seconds": 7200,
+              "abbreviation_STD": "CET",
+              "abbreviation_DST": "CEST"
+            },
+            "plus_code": "8FMHQ793+7P",
+            "plus_code_short": "93+7P Florence, Italy",
+            "rank": {
+              "importance": 0.00008105668726630072,
+              "popularity": 8.995467104553104,
+              "confidence": 1,
+              "confidence_city_level": 1,
+              "match_type": "full_match"
+            },
+            "place_id": "5195fa68273982264059e12131e653e24540f00103f901ea3f226601000000c0020192031754726174746f72696120706f6e7465207665636368696f"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.2543423,
+              43.7681854
+            ]
+          },
+          "bbox": [
+            11.2542923,
+            43.7681354,
+            11.2543923,
+            43.7682354
+          ]
+        }
+      ],
+      "query": {
+        "text": "",
+        "city": "Florence",
+        "country": "Italy",
+        "parsed": {
+          "house": "Trattoria Ponte Vecchio",
+          "city": "Florence",
+          "country": "Italy",
+          "expected_type": "amenity"
+        }
+      }
+    }
+  },
+  "nearby": {
+    "D2-13": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "D2-14": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Ponte Coperto",
+            "country": "Italy",
+            "country_code": "it",
+            "state": "Lombardy",
+            "county": "Pavia",
+            "city": "Pavia",
+            "postcode": "27100",
+            "suburb": "Borgo Ticino",
+            "street": "Ponte Coperto",
+            "iso3166_2": "IT-25",
+            "iso3166_2_sublevel": "IT-PV",
+            "lon": 9.1531924,
+            "lat": 45.1806411,
+            "state_code": "LOM",
+            "formatted": "Ponte Coperto, 27100 Pavia PV, Italy",
+            "address_line1": "Ponte Coperto",
+            "address_line2": "27100 Pavia PV, Italy",
+            "categories": [
+              "man_made",
+              "man_made.bridge",
+              "tourism",
+              "tourism.attraction",
+              "tourism.sights",
+              "tourism.sights.bridge"
+            ],
+            "details": [
+              "details.wiki_and_media"
+            ],
+            "datasource": {
+              "sourcename": "openstreetmap",
+              "attribution": "© OpenStreetMap contributors",
+              "license": "Open Database License",
+              "url": "https://www.openstreetmap.org/copyright",
+              "raw": {
+                "name": "Ponte Coperto",
+                "layer": 1,
+                "bridge": "covered",
+                "osm_id": 15791187,
+                "tourism": "attraction",
+                "man_made": "bridge",
+                "osm_type": "r",
+                "wikidata": "Q1053846",
+                "wikipedia": "it:Ponte Coperto di Pavia",
+                "start_date": 1949,
+                "bridge:structure": "humpback"
+              }
+            },
+            "wiki_and_media": {
+              "wikidata": "Q1053846",
+              "wikipedia": "it:Ponte Coperto di Pavia"
+            },
+            "place_id": "51cc6e8b3d6f4e224059b8fff53e1f974640f00101f90153f4f0000000000092030d506f6e746520436f706572746f"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.153192446966749,
+              45.18064105044999
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

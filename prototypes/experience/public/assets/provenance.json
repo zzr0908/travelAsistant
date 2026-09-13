@@ -1,0 +1,23 @@
+{
+  "photos": [
+    {
+      "file": "assets/uffizi-1.webp",
+      "sourceUrl": "https://www.uffizi.it/en/the-uffizi",
+      "sourceTitle": "The Uffizi | Uffizi Galleries",
+      "retrievedAt": "2026-09-08T10:09:45.432Z",
+      "sha256": "9eeab5b0ab51577c939823e2b58265d7e76cee286719bfc2d8147383fea96e55",
+      "license": "Not established; retained for local review only."
+    },
+    {
+      "file": "assets/uffizi-2.webp",
+      "sourceUrl": "https://www.uffizi.it/en/the-uffizi/painting",
+      "sourceTitle": "Painting | Uffizi Galleries",
+      "retrievedAt": "2026-09-08T10:42:47.479Z",
+      "sha256": "e81ce63b625ed163088de601075b7b74cdf75b9a049735b452f282373b3aeb8a",
+      "license": "Not established; retained for local review only."
+    }
+  ],
+  "geometry": "Saved Geoapify/OSM results acquired 2026-09-08; source user database is read-only; composed schedule and recommendation text are fixed design samples.",
+  "route": "tests/fixtures/maps/geoapify-florence-walk.json",
+  "scope": "Local P1 review; no publication."
+}

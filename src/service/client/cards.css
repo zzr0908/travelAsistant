@@ -1,0 +1,15 @@
+.key-cards { margin: 12px 0; }
+.key-cards>details { margin-top: 8px; }
+.card-list { display: grid; gap: 8px; margin-top: 12px; }
+.card-list>button { display: grid; gap: 6px; text-align: left; white-space: normal; overflow-wrap: anywhere; }
+.card-dialog { display: grid; gap: 14px; }
+.card-editor { border-top: 1px solid var(--line,#ddd); padding-top: 12px; min-width: 0; }
+.card-editor fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 12px; min-width: 0; }
+.card-fields,.card-binding { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+.card-dialog label { display: grid; gap: 5px; min-width: 0; }
+.card-dialog input,.card-dialog select,.card-dialog textarea { width: 100%; min-width: 0; box-sizing: border-box; }
+.card-dialog .check-row { display: flex; align-items: flex-start; gap: 8px; }
+.card-dialog input[type=checkbox] { width: auto; flex: 0 0 auto; }
+.card-dialog p,.card-save-preview { overflow-wrap: anywhere; }
+.card-save-preview { padding: 12px; background: var(--surface-soft,#f4f3ef); margin-top: 12px; border-radius: 8px; }
+@media(max-width:600px) { .card-fields,.card-binding { grid-template-columns: minmax(0,1fr); } }

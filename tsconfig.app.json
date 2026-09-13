@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.server.json",
+  "include": ["src/service/server", "src/service/domain", "src/service/research", "src/storage", "src/cards", "src/maps", "src/execution", "src/shared"]
+}

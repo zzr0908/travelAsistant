@@ -1,0 +1,651 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mode": "walk",
+        "waypoints": [
+          {
+            "location": [
+              11.253158,
+              43.768025
+            ],
+            "original_index": 0
+          },
+          {
+            "location": [
+              11.260567,
+              43.768945
+            ],
+            "original_index": 1
+          }
+        ],
+        "units": "metric",
+        "details": [
+          "route_details"
+        ],
+        "intermediate_waypoint_mode": "stopover",
+        "distance": 756,
+        "distance_units": "meters",
+        "time": 731.992,
+        "legs": [
+          {
+            "distance": 756,
+            "time": 731.992,
+            "steps": [
+              {
+                "speed": 6,
+                "speed_limit": 10,
+                "truck_limit": 10,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Ponte Vecchio",
+                "toll": false,
+                "tunnel": false,
+                "bridge": true,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 50,
+                "from_index": 0,
+                "to_index": 1,
+                "distance": 49,
+                "time": 38.49382352941176,
+                "instruction": {
+                  "text": "Walk northeast on Ponte Vecchio."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 5,
+                "truck_limit": 5,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Ponte Vecchio",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 48,
+                "from_index": 1,
+                "to_index": 2,
+                "distance": 2,
+                "time": 1.5711764705882352
+              },
+              {
+                "speed": 5,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Via Por Santa Maria",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 48,
+                "from_index": 2,
+                "to_index": 3,
+                "distance": 2,
+                "time": 1.756,
+                "instruction": {
+                  "text": "Turn right onto the walkway."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Via Por Santa Maria",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 48,
+                "from_index": 3,
+                "to_index": 4,
+                "distance": 5,
+                "time": 5.612581521739131,
+                "instruction": {
+                  "text": "Turn left onto the crosswalk."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 5,
+                "truck_limit": 5,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 48,
+                "from_index": 4,
+                "to_index": 5,
+                "distance": 2,
+                "time": 2.2450326086956522
+              },
+              {
+                "speed": 3,
+                "speed_limit": 5,
+                "truck_limit": 5,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 56,
+                "from_index": 5,
+                "to_index": 15,
+                "distance": 176,
+                "time": 197.5628695652174
+              },
+              {
+                "speed": 5,
+                "speed_limit": 10,
+                "truck_limit": 10,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Calimaruzza",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 58,
+                "from_index": 15,
+                "to_index": 16,
+                "distance": 62,
+                "time": 54.439,
+                "instruction": {
+                  "text": "Turn right onto Calimaruzza."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 5,
+                "truck_limit": 5,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 58,
+                "from_index": 16,
+                "to_index": 18,
+                "distance": 7,
+                "time": 7.646477876106195,
+                "instruction": {
+                  "text": "Continue on the walkway."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 5,
+                "truck_limit": 5,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 58,
+                "from_index": 18,
+                "to_index": 19,
+                "distance": 12,
+                "time": 13.10824778761062
+              },
+              {
+                "speed": 6,
+                "speed_limit": 10,
+                "truck_limit": 10,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 58,
+                "from_index": 19,
+                "to_index": 20,
+                "distance": 40,
+                "time": 43.6941592920354
+              },
+              {
+                "speed": 3,
+                "speed_limit": 5,
+                "truck_limit": 5,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 60,
+                "from_index": 20,
+                "to_index": 21,
+                "distance": 54,
+                "time": 58.987115044247794
+              },
+              {
+                "speed": 5,
+                "speed_limit": 5,
+                "truck_limit": 5,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 62,
+                "from_index": 21,
+                "to_index": 22,
+                "distance": 8,
+                "time": 7.767172413793103,
+                "instruction": {
+                  "text": "Turn right onto the walkway."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Via dei Gondi",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 63,
+                "from_index": 22,
+                "to_index": 27,
+                "distance": 77,
+                "time": 74.75903448275862
+              },
+              {
+                "speed": 5,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Borgo de' Greci",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 64,
+                "from_index": 27,
+                "to_index": 29,
+                "distance": 3,
+                "time": 2.912689655172414
+              },
+              {
+                "speed": 5,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Borgo de' Greci",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 60,
+                "from_index": 29,
+                "to_index": 34,
+                "distance": 73,
+                "time": 64.09704166666667,
+                "instruction": {
+                  "text": "Turn left onto the walkway."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Borgo de' Greci",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 58,
+                "from_index": 34,
+                "to_index": 35,
+                "distance": 1,
+                "time": 0.878,
+                "instruction": {
+                  "text": "Turn left onto Via del Parlagio."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 50,
+                "truck_limit": 50,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Borgo de' Greci",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "forward",
+                "elevation": 57,
+                "from_index": 35,
+                "to_index": 38,
+                "distance": 33,
+                "time": 28.345016393442624,
+                "instruction": {
+                  "text": "Turn right onto Borgo de' Greci."
+                }
+              },
+              {
+                "speed": 5,
+                "speed_limit": 5,
+                "truck_limit": 5,
+                "surface": "paved",
+                "lane_count": 1,
+                "road_class": "service_other",
+                "name": "Piazza Santa Croce",
+                "toll": false,
+                "tunnel": false,
+                "bridge": false,
+                "roundabout": false,
+                "rightside": true,
+                "traversability": "both",
+                "elevation": 56,
+                "from_index": 38,
+                "to_index": 40,
+                "distance": 41,
+                "time": 35.216535519125685
+              },
+              {
+                "from_index": 46,
+                "to_index": 46,
+                "distance": 0,
+                "time": 0,
+                "instruction": {
+                  "text": "You have arrived at your destination."
+                }
+              }
+            ],
+            "country_code": [
+              "it"
+            ]
+          }
+        ],
+        "country_code": [
+          "it"
+        ]
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              11.253155,
+              43.768027
+            ],
+            [
+              11.253444,
+              43.76842
+            ],
+            [
+              11.253455,
+              43.768438
+            ],
+            [
+              11.253481,
+              43.768428
+            ],
+            [
+              11.253502,
+              43.768466
+            ],
+            [
+              11.253512,
+              43.768484
+            ],
+            [
+              11.253658,
+              43.768676
+            ],
+            [
+              11.253764,
+              43.768802
+            ],
+            [
+              11.25385,
+              43.768936
+            ],
+            [
+              11.25399,
+              43.769121
+            ],
+            [
+              11.254043,
+              43.769184
+            ],
+            [
+              11.254211,
+              43.769365
+            ],
+            [
+              11.254408,
+              43.769591
+            ],
+            [
+              11.254419,
+              43.769604
+            ],
+            [
+              11.25442,
+              43.769631
+            ],
+            [
+              11.254435,
+              43.769891
+            ],
+            [
+              11.255205,
+              43.769892
+            ],
+            [
+              11.255215,
+              43.769892
+            ],
+            [
+              11.255296,
+              43.769887
+            ],
+            [
+              11.25544,
+              43.769848
+            ],
+            [
+              11.255919,
+              43.769748
+            ],
+            [
+              11.256543,
+              43.769562
+            ],
+            [
+              11.256523,
+              43.769495
+            ],
+            [
+              11.256541,
+              43.769495
+            ],
+            [
+              11.256825,
+              43.769496
+            ],
+            [
+              11.257191,
+              43.76947
+            ],
+            [
+              11.257447,
+              43.769444
+            ],
+            [
+              11.25748,
+              43.769441
+            ],
+            [
+              11.257509,
+              43.769438
+            ],
+            [
+              11.257504,
+              43.76943
+            ],
+            [
+              11.25752,
+              43.769425
+            ],
+            [
+              11.257543,
+              43.769418
+            ],
+            [
+              11.25767,
+              43.769392
+            ],
+            [
+              11.257716,
+              43.769383
+            ],
+            [
+              11.258374,
+              43.769252
+            ],
+            [
+              11.258376,
+              43.769258
+            ],
+            [
+              11.258645,
+              43.769202
+            ],
+            [
+              11.258673,
+              43.769196
+            ],
+            [
+              11.258769,
+              43.769178
+            ],
+            [
+              11.259257,
+              43.769097
+            ],
+            [
+              11.259267,
+              43.769095
+            ],
+            [
+              11.259281,
+              43.769094
+            ],
+            [
+              11.260453,
+              43.768969
+            ],
+            [
+              11.260465,
+              43.768968
+            ],
+            [
+              11.260523,
+              43.768964
+            ],
+            [
+              11.260543,
+              43.768955
+            ],
+            [
+              11.260612,
+              43.768927
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "mode": "walk",
+    "waypoints": [
+      {
+        "lat": 43.7680254,
+        "lon": 11.253158
+      },
+      {
+        "lat": 43.7689454,
+        "lon": 11.2605675
+      }
+    ],
+    "units": "metric",
+    "details": [
+      "route_details"
+    ],
+    "intermediate_waypoint_mode": "stopover"
+  },
+  "type": "FeatureCollection"
+}

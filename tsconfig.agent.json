@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.server.json",
+  "include": ["src/agent/runtime", "src/agent/browser/engine.ts", "src/agent/browser/config.ts", "src/agent/browser/chrome.ts", "src/agent/browser/memory-store.ts"]
+}

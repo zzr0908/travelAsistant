@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/deepseek-ai/deepseek-harness.git",
+  "checkoutPath": "vendor/deepseek-harness",
+  "revision": "d347e703908d0406b7a7ef80e3a0e594d86b2215",
+  "upstreamBranchAtRetrieval": "master",
+  "revisionDate": "2026-09-04T17:16:23+08:00",
+  "retrievedOn": "2026-09-07",
+  "packageVersion": "0.1.3-alpha.1",
+  "packageManager": "pnpm@11.7.0",
+  "nodeRequirement": "^22.19.0 || >=24.0.0",
+  "license": "MIT",
+  "shallow": true,
+  "checkoutMode": "detached",
+  "purpose": "Pinned source runtime for the independent Agent execution service and the app log compatibility validator.",
+  "verification": {
+    "gitHeadMatchedGitHubApi": true,
+    "gitConnectivityCheck": "passed",
+    "upstreamWorkingTree": "clean",
+    "dependenciesInstalled": true,
+    "buildRun": false,
+    "modelCallsRun": true,
+    "sourceProfileRun": true,
+    "runtimeEvidence": "docs/qa/harness-browser-delivery.json",
+    "actualPackageManager": "pnpm@11.19.0"
+  },
+  "sourceFingerprints": [
+    {
+      "path": "README.md",
+      "sha256": "a51ca4bff273518c3f292b2e6800f5f2de76170ae6f5919fc48e4a0d82b0da1e"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "b6879a24b019418cf22ab7b03746e20c5f45d27852786d3896b87eee2032b5a7"
+    },
+    {
+      "path": "package.json",
+      "sha256": "7177f05af3a57a4ba6ddb81ce28a686eeede647b9b1b9ccb9ef2fc0892e9c941"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "4bbe49b8489d0222e64473589bee5eb5067e654d17e293e4f8635dfa3b7370cf"
+    },
+    {
+      "path": "packages/core/agent/src/index.ts",
+      "sha256": "ad1e057330eaa2c651266803906f80ec0215a52035f51dfe2088f69bf4daf9ec"
+    },
+    {
+      "path": "packages/core/agent/src/runtime-types.ts",
+      "sha256": "461be30d53a0f20351e5546fe5ba86e28e7181059b4d28fad823ddc463f46b67"
+    },
+    {
+      "path": "packages/core/agent-loop/src/index.ts",
+      "sha256": "c647e143019154e10025b05015d9d530c191c75844242a1b0c9f7fb0b93d129a"
+    },
+    {
+      "path": "packages/core/tools/src/index.ts",
+      "sha256": "5f696f8840cbd136ab0b5903e7de8fd83ad39b3b057e6202845aede4d827c90b"
+    },
+    {
+      "path": "packages/core/session/src/types.ts",
+      "sha256": "1f8b010994d89d65853be484d65c32555f53668151aa827f57650b03c3669ea3"
+    },
+    {
+      "path": "packages/session/session-persistence/src/index.ts",
+      "sha256": "44323f7c978546b1971d31dc27dce9a8d9f2e956fa41ba21e43f903dfb7bebe5"
+    },
+    {
+      "path": "packages/session/session-persistence/src/handle.ts",
+      "sha256": "1b3012d94520374292f5bbc3f6b927a1343b90b95f1ac4d33fb81f83b2449d4a"
+    },
+    {
+      "path": "packages/web/web/src/types.ts",
+      "sha256": "5359ed9130690d7c2fceab7079ba2c2e017b1ac5e053a06cf612cbc6b7609896"
+    },
+    {
+      "path": "packages/bundle/sdk-minimal/cordis.patch.yml",
+      "sha256": "f2161270ce0c75af0b63cc53ed68e4ade9541ebc3ab68504bbb97b72ce035fb4"
+    },
+    {
+      "path": "packages/sdk/client/README.md",
+      "sha256": "290c3089f7bc77c232918d2bd6a39f1ad8f9dc9e575f22ff2551075da58af42e"
+    }
+  ]
+}

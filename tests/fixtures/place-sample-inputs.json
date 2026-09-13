@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "frozenAt": "2026-09-08T09:27:55.018Z",
+  "purpose": "MA02 / D2: fixed inputs and independent expected identities, established before this 20-row service run",
+  "method": "Use actual application MapService in an isolated database. Query each input once with its specified category and city. For rows with nearCity, first resolve that city through the same service; the city is only a search anchor, never the expected answer. Preserve every returned candidate and failure. Correct coverage requires a returned entity whose name/alias, category and locality agree with the independently recorded expected identity; nearby but different branches do not count. All results remain research candidates, with no workspace binding. Sources establish identity/address, not survey-grade coordinates or current opening hours.",
+  "limitations": [
+    "Uffizi bus stop uses an independent secondary transport source (Moovit), not operator-confirmed GTFS; report this separately.",
+    "Chinese names are user-facing translations of the independently identified institutions, not claims of official Chinese naming.",
+    "The fixed set is a small acceptance sample, not a statistical estimate of global coverage."
+  ],
+  "samples": [
+    {
+      "id": "D2-01",
+      "input": {
+        "text": "Galleria degli Uffizi",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "museum"
+      },
+      "expected": {
+        "name": "Galleria degli Uffizi / Uffizi Gallery",
+        "category": "museum",
+        "city": "Firenze",
+        "address": "Piazzale degli Uffizi 6",
+        "reject": "Bus stop or museum shop"
+      },
+      "source": "https://www.uffizi.it/en/contacts"
+    },
+    {
+      "id": "D2-02",
+      "input": {
+        "text": "Uffizi Gallery",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "museum"
+      },
+      "expected": {
+        "name": "Galleria degli Uffizi / Uffizi Gallery",
+        "category": "museum",
+        "city": "Firenze",
+        "address": "Piazzale degli Uffizi 6",
+        "reject": "Bus stop or museum shop"
+      },
+      "source": "https://www.uffizi.it/en/contacts"
+    },
+    {
+      "id": "D2-03",
+      "input": {
+        "text": "乌菲齐美术馆",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "museum"
+      },
+      "expected": {
+        "name": "Galleria degli Uffizi / Uffizi Gallery",
+        "category": "museum",
+        "city": "Firenze",
+        "address": "Piazzale degli Uffizi 6",
+        "reject": "Bus stop or museum shop"
+      },
+      "source": "https://www.uffizi.it/en/contacts"
+    },
+    {
+      "id": "D2-04",
+      "input": {
+        "text": "Museo Galileo",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "museum"
+      },
+      "expected": {
+        "name": "Museo Galileo",
+        "category": "museum",
+        "city": "Firenze",
+        "address": "Piazza dei Giudici 1"
+      },
+      "source": "https://www.museogalileo.it/it"
+    },
+    {
+      "id": "D2-05",
+      "input": {
+        "text": "Basilica di Santa Croce",
+        "context": "Florence, Italy",
+        "country": "it"
+      },
+      "expected": {
+        "name": "Basilica di Santa Croce",
+        "category": "church",
+        "city": "Firenze",
+        "address": "Piazza Santa Croce 16",
+        "reject": "Square, neighbourhood, or another city's church"
+      },
+      "source": "https://www.santacroceopera.it/"
+    },
+    {
+      "id": "D2-06",
+      "input": {
+        "text": "Cattedrale di Santa Maria del Fiore",
+        "context": "Florence, Italy",
+        "country": "it"
+      },
+      "expected": {
+        "name": "Cattedrale di Santa Maria del Fiore / Florence Cathedral",
+        "category": "cathedral",
+        "city": "Firenze",
+        "address": "Piazza del Duomo",
+        "reject": "Operator office on Via della Canonica, museum, or baptistery"
+      },
+      "source": "https://duomo.firenze.it/en/discover"
+    },
+    {
+      "id": "D2-07",
+      "input": {
+        "text": "圣母百花大教堂",
+        "context": "Florence, Italy",
+        "country": "it"
+      },
+      "expected": {
+        "name": "Cattedrale di Santa Maria del Fiore / Florence Cathedral",
+        "category": "cathedral",
+        "city": "Firenze",
+        "address": "Piazza del Duomo",
+        "reject": "Operator office on Via della Canonica, museum, or baptistery"
+      },
+      "source": "https://duomo.firenze.it/en/discover"
+    },
+    {
+      "id": "D2-08",
+      "input": {
+        "text": "Palazzo Vecchio",
+        "context": "Florence, Italy",
+        "country": "it"
+      },
+      "expected": {
+        "name": "Palazzo Vecchio",
+        "category": "historic palace / civic museum",
+        "city": "Firenze",
+        "address": "Piazza della Signoria"
+      },
+      "source": "https://cultura.comune.fi.it/pagina/musei-civici-fiorentini/museo-di-palazzo-vecchio"
+    },
+    {
+      "id": "D2-09",
+      "input": {
+        "text": "Galleria dell'Accademia",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "museum"
+      },
+      "expected": {
+        "name": "Galleria dell'Accademia di Firenze",
+        "category": "museum",
+        "city": "Firenze",
+        "address": "Via Ricasoli 58/60"
+      },
+      "source": "https://www.galleriaaccademiafirenze.it/visita/"
+    },
+    {
+      "id": "D2-10",
+      "input": {
+        "text": "Giardino di Boboli",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "park"
+      },
+      "nearCity": "Florence",
+      "expected": {
+        "name": "Giardino di Boboli / Boboli Gardens",
+        "category": "garden / park",
+        "city": "Firenze",
+        "address": "Behind Palazzo Pitti; garden has multiple entrances",
+        "reject": "Pitti Palace building or a single statue"
+      },
+      "source": "https://www.uffizi.it/en/boboli-garden"
+    },
+    {
+      "id": "D2-11",
+      "input": {
+        "text": "Giardino Bardini",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "park"
+      },
+      "nearCity": "Florence",
+      "expected": {
+        "name": "Giardino Bardini",
+        "category": "garden / park",
+        "city": "Firenze",
+        "address": "Via de' Bardi 1; hillside south of Arno",
+        "reject": "Museo Stefano Bardini or Villa Bardini building"
+      },
+      "source": "https://www.feelflorence.it/it/punti-di-interesse/giardino-bardini"
+    },
+    {
+      "id": "D2-12",
+      "input": {
+        "text": "Ponte Vecchio",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "bridge"
+      },
+      "nearCity": "Florence",
+      "expected": {
+        "name": "Ponte Vecchio",
+        "category": "bridge",
+        "city": "Firenze",
+        "address": "Arno crossing between the historic centre and Oltrarno",
+        "reject": "Same-name restaurant, cafe, neighbourhood, or bridge in another city"
+      },
+      "source": "https://www.visittuscany.com/en/attractions/ponte-vecchio/"
+    },
+    {
+      "id": "D2-13",
+      "input": {
+        "text": "Ponte Vecchio",
+        "context": "Bassano del Grappa, Italy",
+        "country": "it",
+        "category": "bridge"
+      },
+      "nearCity": "Bassano del Grappa",
+      "expected": {
+        "name": "Ponte Vecchio / Ponte degli Alpini",
+        "category": "bridge",
+        "city": "Bassano del Grappa",
+        "address": "Covered bridge over the Brenta",
+        "reject": "Florence or Pavia bridge"
+      },
+      "source": "https://www.museoanamontegrappa.it/en/menu/the-bridge"
+    },
+    {
+      "id": "D2-14",
+      "input": {
+        "text": "Ponte Vecchio",
+        "context": "Pavia, Italy",
+        "country": "it",
+        "category": "bridge"
+      },
+      "nearCity": "Pavia",
+      "expected": {
+        "name": "Ponte Vecchio / Ponte Coperto",
+        "category": "bridge",
+        "city": "Pavia",
+        "address": "Piazzale Ponte Ticino; crosses Ticino to Borgo Ticino",
+        "reject": "Florence or Bassano bridge"
+      },
+      "source": "https://www.lombardiabeniculturali.it/architetture/schede/PV240-00121/"
+    },
+    {
+      "id": "D2-15",
+      "input": {
+        "text": "Piazza della Signoria",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "square",
+        "searchType": "street"
+      },
+      "expected": {
+        "name": "Piazza della Signoria",
+        "category": "square / pedestrian street representative point",
+        "city": "Firenze",
+        "address": "Square beside Palazzo Vecchio",
+        "reject": "Palazzo Vecchio building"
+      },
+      "source": "https://www.feelflorence.it/sites/default/files/2025-08/FirenzeMAP_RETRO%20ALTERNATIVO_%202025.pdf"
+    },
+    {
+      "id": "D2-16",
+      "input": {
+        "text": "Piazza Santa Croce",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "square",
+        "searchType": "street"
+      },
+      "expected": {
+        "name": "Piazza Santa Croce",
+        "category": "square / pedestrian street representative point",
+        "city": "Firenze",
+        "address": "Square in front of Basilica di Santa Croce",
+        "reject": "Basilica building"
+      },
+      "source": "https://www.feelflorence.it/sites/default/files/2025-08/FirenzeMAP_RETRO%20ALTERNATIVO_%202025.pdf"
+    },
+    {
+      "id": "D2-17",
+      "input": {
+        "text": "Ditta Artigianale",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "cafe"
+      },
+      "nearCity": "Florence",
+      "expected": {
+        "name": "Ditta Artigianale — Via dei Neri branch",
+        "category": "cafe",
+        "city": "Firenze",
+        "address": "Via dei Neri 30/R–32/R",
+        "reject": "Sprone, Carducci or other branches do not count as the specified target; multiple branches may remain ambiguous"
+      },
+      "source": "https://dittaartigianale.com/en/pages/locali"
+    },
+    {
+      "id": "D2-18",
+      "input": {
+        "text": "All'Antico Vinaio",
+        "context": "Florence, Italy",
+        "country": "it"
+      },
+      "expected": {
+        "name": "All'Antico Vinaio — Via dei Neri premises",
+        "category": "sandwich shop / food outlet",
+        "city": "Firenze",
+        "address": "Via dei Neri 65, 74, 76 or 78 (any of these original neighbouring premises accepted)",
+        "reject": "Other-city branches"
+      },
+      "source": "https://www.allanticovinaio.com/firenze/"
+    },
+    {
+      "id": "D2-19",
+      "input": {
+        "text": "Galleria Degli Uffizi",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "public_transport.bus"
+      },
+      "nearCity": "Florence",
+      "expected": {
+        "name": "Galleria Degli Uffizi, stop FI2224",
+        "category": "bus stop",
+        "city": "Firenze",
+        "address": "Piazza del Grano 8",
+        "reject": "Uffizi museum"
+      },
+      "source": "https://moovitapp.com/index/it/mezzi_pubblici-Galleria_Degli_Uffizi-Firenze-stop_45711496-2022",
+      "sourceType": "independent secondary transport source"
+    },
+    {
+      "id": "D2-20",
+      "input": {
+        "text": "Trattoria Ponte Vecchio",
+        "context": "Florence, Italy",
+        "country": "it",
+        "category": "restaurant"
+      },
+      "nearCity": "Florence",
+      "expected": {
+        "name": "Trattoria Ponte Vecchio",
+        "category": "restaurant",
+        "city": "Firenze",
+        "address": "Lungarno degli Archibusieri 8",
+        "reject": "Bridge, cafe at Ponte Vecchio 57R, or another city"
+      },
+      "source": "https://www.trattoriapontevecchio.com/it/contatti.html"
+    }
+  ]
+}

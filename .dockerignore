@@ -1,0 +1,15 @@
+.git
+.env
+.env.*
+!.env.example
+node_modules
+dist
+runtime
+.cache
+data
+data-agent
+vendor/deepseek-harness
+output
+tmp
+docs/qa
+agent.md
